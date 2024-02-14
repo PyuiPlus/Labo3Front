@@ -1,0 +1,16 @@
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3;
+}
+
+.case{
+    margin: 1rem;
+}
+
+@media (max-width: 800px) {
+    #content {
+      flex-direction: column;
+    }
+  }

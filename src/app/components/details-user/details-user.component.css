@@ -1,0 +1,31 @@
+#userDetails{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+}
+
+#card{
+    height: 20vh;
+    width: 40vh;
+    margin-bottom: 2rem;
+}
+
+
+#content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3;
+}
+
+.case{
+    margin: 1rem;
+}
+
+@media (max-width: 800px) {
+    #content {
+      flex-direction: column;
+    }
+  }
